@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://imgs.search.brave.com/vTkCpQsCBmEtQKX1BF_B_9SHal9VG3qyYgznbSuhq1k/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2M3L2E4/LzA3L2M3YTgwNzY1/MWJjNmNhZTQ3YmE4/MDgzMjExMzAzMjBl/LmpwZw") ;   
+    
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h1, h2{
+    text-shadow: red 1px 1px 5px;
+}
+
+button, input, .garage {
+    background-color: gold;
+    color: rgb(192, 15, 15);
+}
+
+.intake{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin: 0 10px;
+}
+
+input::placeholder{
+    color:rgb(192, 15, 15);
+    font-size: 14px;
+    text-align: left;
+    font-style: italic;
+}
+
+.garage {
+    border: solid black 2px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5rem;
+
+}
